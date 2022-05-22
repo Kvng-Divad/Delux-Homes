@@ -126,7 +126,7 @@ input,button{
     height: var(--header-height);
     display: flex;
     align-items: center;
-    width: 90%;
+    max-width: 90%;
 }
 .nav-logo{
     display: inline-flex;
@@ -194,7 +194,7 @@ input,button{
     color: var(--skin-color);
 }
 .scroll-header .nav-logo h3,
-.scroll-header .nav-logo h3{
+.scroll-header .nav-logo i{
     color: var(--skin-color2);
 }
 
@@ -523,7 +523,7 @@ transition: .4s;
     overflow: hidden;
     border-radius: 125px 125px 12px 12px;
     inset: 0;
-    margin: auto;
+    margin: 0 auto;
     box-shadow: 0 16px 32px hsla(228, 66%, 25% , .25);
 }
 .contact-description{
@@ -538,7 +538,7 @@ transition: .4s;
 .contact-card-box{
     background-color: var(--bg-black-100);
     border: 2px solid var(--border-color);
-    padding: 1.25rem .75rem;
+    padding: 1.25rem .5rem;
     border-radius: .5rem;
     transition: .3s;
 }
@@ -746,13 +746,13 @@ transition: .4s;
 /*theme-button*/
 .change-theme i{
     font-size: 1.25rem;
-    color:#fff;
+    color:var(--skin-color);
     cursor: pointer;
     transition: .3s;
-    color: var(--txt-color-2);
+    
 }
 .change-theme i:hover{
-    color: var(--skin-color);
+    color: var(--txt-color-1);
 }
 
 

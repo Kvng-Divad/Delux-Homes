@@ -16,7 +16,7 @@
      bottom: 2rem; 
      background-color: var(--bg-black-100);
      box-shadow: 0 8px 24px hsla(228, 66%,  45%, .15);
-     width: 90%;
+     max-width: 90%;
      left: 0;   
      right: 0;   
      margin: 0 auto;   
@@ -43,10 +43,9 @@
      display: none;
  }
  .change-theme{
-     margin-left: auto;
+     margin-left: auto; 
  }
 }
-
 
 @media (max-width:350px){
     .container{
