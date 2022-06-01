@@ -345,7 +345,6 @@ input,button{
     padding: 1rem 0 5rem;
 }
 .popular-card{
-    width: 290px;
     background-color: var(--container-color);
     padding: .5rem .5rem 1.5rem;
     border-radius: 1rem;
@@ -353,6 +352,7 @@ input,button{
     transition: .4s;
 }
 .popular-img img{
+    width: 100%;
     border-radius: 1rem;
     margin-bottom: 1rem;
 }

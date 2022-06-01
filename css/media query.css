@@ -82,11 +82,6 @@
     .logos-container{
         gap:2rem 1rem;
     }
-
-    .popular-card{
-        width: 230px;
-        padding: .5rem .5rem .75rem;
-    }
     .value-img,
     .contact-img{
        width: 220px;
@@ -157,10 +152,7 @@
 }
 
 @media (min-width:760px){
-.popular-card{
-    max-width: 30%;
-    padding: .75rem .75rem 1.5rem;
-  }
+
 }
 
 
@@ -236,9 +228,7 @@
     .popular-container{
         padding-top: 3rem;
     }
-    .popular-card{
-        padding: .75rem .75rem 2rem;
-    }
+    
     .popular-data{
         padding: 0 .25rem 0 .75rem;
     }

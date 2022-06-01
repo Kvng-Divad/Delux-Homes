@@ -12,11 +12,25 @@ window.addEventListener("scroll", scrollHeader);
 
 
 /* swiper */
-var swiperPopular = new Swiper(".popular-container", {
-    spaceBetween: 32,
+var swiperPopular = new Swiper (".popular-container", {
+    spaceBetween: 30,
     grabCursor: true,
     centeredSlides:true,
-    slidesPerView: 'auto',
+    autoplay:{
+        delay: 5000,
+        disableOninteraction:false,
+    },
+    breakpoints:{
+        0: {
+            slidesPerView: '1',
+        },
+        700: {
+            slidesPerView: '2.5',
+        },
+        900: {
+            slidesPerView: '3',
+        },
+    },
     loop:true,
 
     navigation: {
